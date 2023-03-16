@@ -18,6 +18,11 @@ import { NgDynamicBreadcrumbModule } from 'ng-dynamic-breadcrumb';
 import { DialogAssetsComponent } from './dialog-assets/dialog-assets.component';
 import { DialogSparepartsComponent } from './dialog-spareparts/dialog-spareparts.component';
 import { DialogConfigurationComponent } from './dialog-configuration/dialog-configuration.component';
+import { HistoryComponent } from './history/history.component';
+import { EmptyspareComponent } from './emptyspare/emptyspare.component';
+import { InactiveAssetsComponent } from './inactive-assets/inactive-assets.component';
+import { AssetsMaintenanceComponent } from './assets-maintenance/assets-maintenance.component';
+import { ServiceChartComponent } from './service-chart/service-chart.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +36,12 @@ import { DialogConfigurationComponent } from './dialog-configuration/dialog-conf
     AssetsComponent,
     DialogAssetsComponent,
     DialogSparepartsComponent,
-    DialogConfigurationComponent
+    DialogConfigurationComponent,
+    HistoryComponent,
+    EmptyspareComponent,
+    InactiveAssetsComponent,
+    AssetsMaintenanceComponent,
+    ServiceChartComponent,
   ],
   imports: [
     BrowserModule,

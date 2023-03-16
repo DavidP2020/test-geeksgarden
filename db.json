@@ -204,7 +204,7 @@
       "assetId": 303,
       "configId": 201,
       "sparepartId": 403,
-      "usertId": 102,
+      "userId": 102,
       "details": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       "created_at": ""
     },
@@ -213,7 +213,7 @@
       "assetId": 301,
       "configId": 202,
       "sparepartId": 402,
-      "usertId": 102,
+      "userId": 102,
       "details": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       "created_at": ""
     },
@@ -222,7 +222,7 @@
       "assetIde": 302,
       "configId": 201,
       "sparepartId": 401,
-      "usertId": 102,
+      "userId": 102,
       "details": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       "created_at": ""
     }
