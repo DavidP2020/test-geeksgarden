@@ -1,0 +1,17 @@
+<div *ngIf="storage" class="w-screen" role="main">
+  <div class="flex flex-row">
+    <app-sidebar></app-sidebar>
+    <div class="w-screen overflow-auto">
+      <mat-card class="w-screen h-40">
+        <app-ng-dynamic-breadcrumb></app-ng-dynamic-breadcrumb>
+      </mat-card>
+      <div class="m-4">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="!storage" class="content" role="main">
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,55 @@
+<h1 mat-dialog-title>
+    <div class="flex justify-end">
+        <mat-icon mat-dialog-close>clear</mat-icon>
+    </div>
+    <hr>
+
+</h1>
+
+<div mat-dialog-content>
+
+    <form [formGroup]="projectForm" class="form">
+
+        <mat-card>
+            <div class="flexInput">
+                <div class="flex flex-row justify-center items-center">
+                    <label class="label" for="id">Id</label>
+                    <input type="text" formControlName="id" class="inputText">
+                    <button *ngIf="actionBtn === 'Delete'" mat-raised-button (click)="addItem()"><i
+                            class="fas fa-sharp fa-regular fa-pencil"></i></button>
+                </div>
+            </div>
+            <div class="flexInput">
+                <div class="flex flex-row justify-center items-center">
+                    <label class="label" for="confignName">Config Name</label>
+                    <input type="text" formControlName="confignName" class="inputText">
+                    <button *ngIf="actionBtn === 'Delete'" mat-raised-button (click)="addItem()"><i
+                            class="fas fa-sharp fa-regular fa-pencil"></i></button>
+                </div>
+            </div>
+            <div class="flexInput">
+                <div class="flex flex-row justify-center items-center">
+                    <label class="label" for="type">Type</label>
+                    <input type="text" formControlName="type" class="inputText">
+                    <button *ngIf="actionBtn === 'Delete'" mat-raised-button (click)="addItem()"><i
+                            class="fas fa-sharp fa-regular fa-pencil"></i></button>
+                </div>
+            </div>
+            <div class="flexInput">
+                <div class="flex flex-row justify-center items-center">
+                    <label class="label" for="details">Details</label>
+                    <textarea type="text" formControlName="details" class="inputText" rows="4" cols="50"></textarea>
+                    <button *ngIf="actionBtn === 'Delete'" mat-raised-button (click)="addItem()"><i
+                            class="fas fa-sharp fa-regular fa-pencil"></i></button>
+                </div>
+            </div>
+
+            <div class="flexInput justify-center items-end mt-4">
+                <button *ngIf="actionBtn === 'Delete'" mat-raised-button color="warn" class="w-56"
+                    (click)="deleteItem()">Delete</button>
+                <button *ngIf="actionBtn === 'Save'" mat-raised-button class="w-56 bg-green-700 text-white"
+                    (click)="addItem()">Save</button>
+            </div>
+        </mat-card>
+    </form>
+</div>

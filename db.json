@@ -1,0 +1,259 @@
+{
+  "users": [
+    {
+      "id": 101,
+      "fullname": "Admin",
+      "username": "Admin",
+      "password": "admin123",
+      "role": "Admin",
+      "created_at": ""
+    },
+    {
+      "id": 102,
+      "fullname": "User",
+      "username": "User User",
+      "password": "useruser123",
+      "role": "User",
+      "created_at": ""
+    }
+  ],
+  "locations": [
+    {
+      "id": 111,
+      "locationName": "Kalimantan",
+      "address": "Jalan Jalan Jalan",
+      "created_at": ""
+    },
+    {
+      "id": 112,
+      "locationName": "Jakarta",
+      "address": "Jalan Jalan Jalan",
+      "created_at": ""
+    }
+  ],
+  "configuration": [
+    {
+      "id": 201,
+      "confignName": "Config 1",
+      "type": "Z",
+      "details": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum",
+      "created_at": ""
+    },
+    {
+      "id": 202,
+      "confignName": "Config 2",
+      "type": "X",
+      "details": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum",
+      "created_at": ""
+    },
+    {
+      "id": "123",
+      "confignName": "ABCD",
+      "type": "2",
+      "details": "sadadsadadadsadsadadadada"
+    },
+    {
+      "id": "32131",
+      "confignName": "ABCDASDASDAW",
+      "type": "2",
+      "details": "dsadsadadadadasda"
+    }
+  ],
+  "assets": [
+    {
+      "id": 301,
+      "assetName": "Laptop Asus12",
+      "serialNumber": "XX412UK",
+      "type": "B",
+      "locationId": 111,
+      "modelNumber": "12345",
+      "manufacturer": "Lorem Ipsum",
+      "currentStatus": "Available"
+    },
+    {
+      "id": 302,
+      "assetName": "Laptop Lenovo",
+      "serialNumber": "LL412UF",
+      "type": "B",
+      "locationId": 112,
+      "modelNumber": "12345",
+      "manufacturer": "Lorem Ipsum",
+      "currentStatus": "Progress",
+      "created_at": ""
+    },
+    {
+      "id": 303,
+      "assetName": "Laptop Acer",
+      "serialNumber": "AA412UF",
+      "type": "C",
+      "locationId": 111,
+      "modelNumber": "12345",
+      "manufacturer": "Lorem Ipsum",
+      "currentStatus": "Rent",
+      "created_at": ""
+    },
+    {
+      "id": "1",
+      "assetName": "sadada",
+      "serialNumber": "2321",
+      "type": "a",
+      "locationId": "1",
+      "modelNumber": "321321",
+      "manufacturer": "dsadsa",
+      "currentStatus": "Available"
+    },
+    {
+      "id": "123",
+      "assetName": "EFG",
+      "serialNumber": "123`",
+      "type": "A",
+      "locationId": "3",
+      "modelNumber": "123211",
+      "manufacturer": "dsadad",
+      "currentStatus": "Rent"
+    }
+  ],
+  "spareparts": [
+    {
+      "id": 401,
+      "spareparttName": "Lorem",
+      "quantity": 3,
+      "type": "A",
+      "locationId": 111,
+      "modelNumber": "12345",
+      "manufacturer": "Lorem Ipsum",
+      "currentStatus": "Available",
+      "created_at": ""
+    },
+    {
+      "id": 402,
+      "spareparttName": "Ipsum",
+      "quantity": 13,
+      "type": "B",
+      "locationId": 112,
+      "modelNumber": "12345",
+      "manufacturer": "Lorem Ipsum",
+      "currentStatus": "Progress",
+      "created_at": ""
+    },
+    {
+      "id": 403,
+      "spareparttName": "Lorem Ipsum",
+      "quantity": 32,
+      "type": "C",
+      "locationId": 111,
+      "modelNumber": "12345",
+      "manufacturer": "Lorem Ipsum",
+      "currentStatus": "Rent",
+      "created_at": ""
+    },
+    {
+      "id": "3123",
+      "spareparttName": "AVZ",
+      "quantity": "2",
+      "type": "A",
+      "locationId": "1",
+      "modelNumber": "21321313",
+      "manufacturer": "sadadsa",
+      "currentStatus": "Rent"
+    }
+  ],
+  "assetSpareparts": [
+    {
+      "id": 501,
+      "assetId": 301,
+      "sparepartId": 401,
+      "created_at": ""
+    },
+    {
+      "id": 502,
+      "assetId": 301,
+      "sparepartId": 402,
+      "created_at": ""
+    },
+    {
+      "id": 503,
+      "assetId": 302,
+      "sparepartId": 403,
+      "created_at": ""
+    }
+  ],
+  "assetConfigs": [
+    {
+      "id": 601,
+      "assetId": 303,
+      "configId": 201,
+      "created_at": ""
+    },
+    {
+      "id": 602,
+      "assetId": 301,
+      "configId": 202,
+      "created_at": ""
+    },
+    {
+      "id": 603,
+      "assetIde": 302,
+      "configId": 201,
+      "created_at": ""
+    }
+  ],
+  "history": [
+    {
+      "id": 701,
+      "assetId": 303,
+      "configId": 201,
+      "sparepartId": 403,
+      "usertId": 102,
+      "details": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum",
+      "created_at": ""
+    },
+    {
+      "id": 702,
+      "assetId": 301,
+      "configId": 202,
+      "sparepartId": 402,
+      "usertId": 102,
+      "details": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum",
+      "created_at": ""
+    },
+    {
+      "id": 703,
+      "assetIde": 302,
+      "configId": 201,
+      "sparepartId": 401,
+      "usertId": 102,
+      "details": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum",
+      "created_at": ""
+    }
+  ],
+  "transactions": [
+    {
+      "id": 801,
+      "assetId": 303,
+      "sparepartId": 403,
+      "type": "A",
+      "startTime": "",
+      "endTime": "",
+      "created_at": ""
+    },
+    {
+      "id": 802,
+      "assetId": 301,
+      "sparepartId": 402,
+      "type": "A",
+      "startTime": "",
+      "endTime": "",
+      "created_at": ""
+    },
+    {
+      "id": 803,
+      "configId": 201,
+      "sparepartId": 401,
+      "type": "A",
+      "startTime": "",
+      "endTime": "",
+      "created_at": ""
+    }
+  ]
+}

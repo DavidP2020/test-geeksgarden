@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+@layer components {
+  .screen {
+    @apply w-screen min-h-screen flex flex-col max-w-[500px] mx-auto p-10;
+  }
+  .flexInput {
+    @apply flex flex-col gap-2 mb-2;
+  }
+  .form {
+    @apply w-full bg-gray-100 flex flex-col gap-4 shadow-lg rounded-lg mt-8 p-8;
+  }
+  .menu {
+    @apply w-full text-center;
+  }
+  .menu-link {
+    @apply flex items-center py-2 px-2;
+  }
+  .inputText {
+    @apply border-2 border-black w-full rounded-md p-2;
+  }
+  .label {
+    @apply min-w-[10rem];
+  }
+}
